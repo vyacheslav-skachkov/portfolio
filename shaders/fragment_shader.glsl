@@ -1,0 +1,2 @@
+#define PI 3.1415926535
+precision mediump float;uniform sampler2D u_Sampler_0;uniform sampler2D u_Sampler_1;uniform float u_Alpha;uniform float u_CropCoord;varying vec2 v_TextureCoords;void main(){vec4 sampler0=texture2D(u_Sampler_0,v_TextureCoords);vec4 sampler1=texture2D(u_Sampler_1,v_TextureCoords);if(u_CropCoord!=0.)if(v_TextureCoords.x<u_CropCoord||v_TextureCoords.y<.4||v_TextureCoords.x>1.-u_CropCoord||v_TextureCoords.y>.6)discard;gl_FragColor=mix(sampler1,sampler0,u_Alpha);}
