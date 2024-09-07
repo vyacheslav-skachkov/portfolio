@@ -1,0 +1,1 @@
+.project-view{margin-bottom:5rem}.project-frame{display:flex;justify-content:center;align-items:center;width:100%;max-width:1400px;aspect-ratio:2/1}.project{position:relative;width:100%;max-width:1100px;aspect-ratio:2/1;display:block;pointer-events:none;cursor:default}.project-show .project{cursor:pointer;pointer-events:auto}
