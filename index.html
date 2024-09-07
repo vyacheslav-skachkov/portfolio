@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Vyacheslav Skachkov">
+        <title>Home</title>
+        <!-- <script type="module" src="./scripts/main.js"></script> -->
+        <script defer src="./libraries/webGL.js"></script>
+        <script defer src="./libraries/matrix_4x4.js"></script>
+        <link rel="icon" href="./images/favicon.svg" sizes="96x96">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/adaptive.css">
+        <link rel="stylesheet" href="./styles/home.css">
+    </head>
+    <body data-project="eye optics,model agency,portfolio,wrist watches,fifteen puzzle,panorama">
+        <header>
+            <nav class="menu">
+                <div class="menu-item-group">
+                    <a class="menu-item current-item" href="home">
+                        <span class="content">home</span>
+                        <span class="content">home</span>
+                    </a>
+                    <a class="menu-item" href="services">
+                        <span class="content">services</span>
+                        <span class="content">services</span>
+                    </a>
+                    <a class="menu-item" href="work">
+                        <span class="content">work</span>
+                        <span class="content">work</span>
+                    </a>
+                    <a class="menu-item" href="contacts">
+                        <span class="content">contacts</span>
+                        <span class="content">contacts</span>
+                    </a>
+                </div>
+                <button class="menu-call" type="button" tabindex="-1">
+                    <span class="content">menu</span>
+                    <span class="content">menu</span>
+                </button>
+                <button class="back-item" type="button" tabindex="-1">
+                    <span class="content">back</span>
+                    <span class="content">back</span>
+                </button>
+            </nav>
+        </header>
+        <div id="main">
+            <div id="scrollable"></div>
+        </div>
+        <div class="resizing">resizing</div>
+    </body>
+</html>
